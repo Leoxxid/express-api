@@ -5,7 +5,7 @@ const requireDir = require('require-dir')
 
 // Iniciando o app
 const app = express();
-app.user('cors')
+app.use('cors');
 app.use(express.json());
 
 // Iniciando o DB
